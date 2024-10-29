@@ -25,11 +25,6 @@ body {
     font-family: var(--secondary-font);
     color: var(--pearl);
     background-color: var(--pearl);
-    background-image: url(../images/background.webp);
-}
-
-.section {
-    padding-top: 4rem; /* prevent navbar overlap */
 }
 
 /* Header styles */
@@ -43,9 +38,9 @@ body {
 
 /* Main styles */
 
-main {
+/* main {
     background-color: rgba(42, 45, 52, 0.8);
-}
+} */
 
 /* Footer styles */
 footer {
