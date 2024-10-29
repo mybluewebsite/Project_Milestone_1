@@ -6,14 +6,11 @@
     --primary-font: "Archivo Narrow", sans-serif;
     --secondary-font: "Arsenal", sans-serif;
     --accent-font: "Fira Sans", sans-serif;
-    --gunmetal: #333745ff;
-    /* Gunmetal */
-    --battleship-gray: #94958bff;
-    /* Battleship Grey */
-    --chartreuse: #c7ef00ff;
-    /* Chartreuse */
-    --office-green: #036d19ff;
-    /* Office Green */
+    --pearl: #e2dbbeff;
+    --dark-spring-green: #2c6e49ff;
+    --cambridge-blue: #9dbbaeff;
+    --gunmetal: #2a2d34ff;
+    --wenge: #63595cff;
 }
 
 /* Global styles */
@@ -21,13 +18,14 @@
 .navbar {
     font-family: var(--primary-font);
     color: var(--gunmetal);
-    background-color: var(--chartreuse);
+    background-color: var(--cambridge-blue);
 }
 
 body {
     font-family: var(--secondary-font);
-    color: var(--chartreuse);
-    background-color: var(--battleship-gray);
+    color: var(--pearl);
+    background-color: var(--pearl);
+    background-image: url(../images/background.webp);
 }
 
 .section {
@@ -36,7 +34,7 @@ body {
 
 /* Header styles */
 #intro {
-    background-color: var(--gunmetal);
+    background-color: rgba(42, 45, 52, 0.8);
 }
 
 #intro p {
@@ -45,10 +43,13 @@ body {
 
 /* Main styles */
 
+main {
+    background-color: rgba(42, 45, 52, 0.8);
+}
 
 /* Footer styles */
 footer {
     font-family: var(--primary-font);
     color: var(--gunmetal);
-    background-color: var(--chartreuse);
+    background-color: var(--cambridge-blue);
 }
