@@ -29,3 +29,26 @@ body {
     color: var(--chartreuse);
     background-color: var(--battleship-gray);
 }
+
+.section {
+    padding-top: 4rem; /* prevent navbar overlap */
+}
+
+/* Header styles */
+#intro {
+    background-color: var(--gunmetal);
+}
+
+#intro p {
+    font-family: var(--accent-font);
+}
+
+/* Main styles */
+
+
+/* Footer styles */
+footer {
+    font-family: var(--primary-font);
+    color: var(--gunmetal);
+    background-color: var(--chartreuse);
+}
