@@ -1,0 +1,31 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Arsenal:ital@0;1&family=Fira+Sans:ital,wght@0,100;0,400;1,400&display=swap');
+
+/* Colour palette */
+:root {
+    --primary-font: "Archivo Narrow", sans-serif;
+    --secondary-font: "Arsenal", sans-serif;
+    --accent-font: "Fira Sans", sans-serif;
+    --gunmetal: #333745ff;
+    /* Gunmetal */
+    --battleship-gray: #94958bff;
+    /* Battleship Grey */
+    --chartreuse: #c7ef00ff;
+    /* Chartreuse */
+    --office-green: #036d19ff;
+    /* Office Green */
+}
+
+/* Global styles */
+
+.navbar {
+    font-family: var(--primary-font);
+    color: var(--gunmetal);
+    background-color: var(--chartreuse);
+}
+
+body {
+    font-family: var(--secondary-font);
+    color: var(--chartreuse);
+    background-color: var(--battleship-gray);
+}
