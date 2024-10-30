@@ -72,12 +72,11 @@ main {
 }
 
 #hero {
-    background-image: url("../images/merlin-in-norway.webp");
+    background-image: url("../images/server-rack.webp");
     background-color: var(--gunmetal);
     background-position: 30% 50%;
-    min-height: 500px;
     background-size: cover;
-    padding: 5% 5%;
+    padding: 0 0 5% 5%;
     background-blend-mode: screen;
 }
 
