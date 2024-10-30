@@ -51,12 +51,17 @@ main {
 }
 
 #hero {
-    background-image: url("../images/me\ with\ ge90.webp");
-    background-color: #dbdcde;
-    background-size: cover;
+    background-image: url("../images/cool-aircrew.webp");
+    background-color: var(--gunmetal);
+    background-position: 30% 50%;
     min-height: 500px;
-    background-position: 50% 70%;
-    padding: 5% 7%;
+    background-size: cover;
+    padding: 5% 5%;
+    background-blend-mode: screen;
+}
+
+#hero .hero-img {
+    border-radius: 50%;
 }
 
 /* Footer styles */
@@ -67,4 +72,11 @@ footer {
     background-color: var(--cambridge-blue);
 }
 
+.custom-button {
+    color: var(--gunmetal);
+}
+
+.custom-button:hover {
+    color: var(--dark-spring-green);
+}
 
