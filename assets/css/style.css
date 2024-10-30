@@ -6,7 +6,7 @@
     --primary-font: "Archivo Narrow", sans-serif;
     --secondary-font: "Arsenal", sans-serif;
     --accent-font: "Fira Sans", sans-serif;
-    --pearl: #e2dbbeff;
+    --baby-powder: #f7f7f2ff;
     --dark-spring-green: #2c6e49ff;
     --cambridge-blue: #9dbbaeff;
     --gunmetal: #2a2d34ff;
@@ -23,13 +23,21 @@
 
 body {
     font-family: var(--secondary-font);
-    color: var(--pearl);
-    background-color: var(--pearl);
+    color: var(--baby-powder);
+    background-color: var(--baby-powder);
+}
+
+mark {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    color: var(--gunmetal);
+    background-color: var(--baby-powder);
 }
 
 /* Header styles */
+
 #intro {
-    background-color: rgba(42, 45, 52, 0.8);
+    background-color: var(--gunmetal)
 }
 
 #intro p {
@@ -38,13 +46,25 @@ body {
 
 /* Main styles */
 
-/* main {
-    background-color: rgba(42, 45, 52, 0.8);
-} */
+main {
+    background-color: var(--gunmetal)
+}
+
+#hero {
+    background-image: url("../images/background.webp");
+    background-color: #dbdcde;
+    background-size: cover;
+    min-height: 500px;
+    background-position: 50% 70%;
+    padding: 5% 7%;
+}
 
 /* Footer styles */
+
 footer {
     font-family: var(--primary-font);
     color: var(--gunmetal);
     background-color: var(--cambridge-blue);
 }
+
+
