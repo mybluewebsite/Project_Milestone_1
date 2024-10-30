@@ -72,7 +72,7 @@ main {
 }
 
 #hero {
-    background-image: url("../images/cool-aircrew.webp");
+    background-image: url("../images/merlin-in-norway.webp");
     background-color: var(--gunmetal);
     background-position: 30% 50%;
     min-height: 500px;
@@ -81,7 +81,7 @@ main {
     background-blend-mode: screen;
 }
 
-#hero .hero-img {
+#hero #hero-img {
     border-radius: 50%;
 }
 
