@@ -49,6 +49,8 @@ footer .custom-button {
 .navbar .active {
     color: var(--baby-powder);
     background-color: var(--dark-spring-green);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
 }
 
 .section {
