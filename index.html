@@ -20,9 +20,9 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-  <nav class="navbar navbar-expand-lg">
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Shaun Walker</a>
+      <a class="navbar-brand custom-button" href="index.html">Shaun Walker</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,63 +30,71 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">About me</a>
+            <a class="nav-link active custom-button" aria-current="page" href="index.html">About me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="experience.html">Work Experience</a>
+            <a class="nav-link custom-button" href="experience.html">Work Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link custom-button" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <br>
-  <header id="intro" class="container text-center">
+  <header id="intro" class="container text-center section">
     <section class="row">
       <div class="col-12">
         <h1 class="my-4">
           Entry-Level <mark>Cybersecurity</mark> Engineer
         </h1>
         <p class="col-8 offset-2 text-center">
-          Hello! I'm Shaun, a
-          results-driven professional with over 8 years of experience in the Aeronautical & Defence Industry,
-          seeking a Cybersecurity Engineer role to leverage strong problem-solving and data analysis skills.
-          Proven ability to manage projects, collaborate effectively, and thrive in fast-paced environments.
-          Eager to learn and contribute to a team focused on developing and maintaining high-performance
-          systems.
+          I'm Shaun, a dedicated entry-level cybersecurity engineer with a strong foundation in problem-solving and data analysis.
+          I'm eager to apply my skills to a challenging role in cybersecurity. With a passion for technology
+          and a commitment to staying updated with the latest industry trends, I'm ready to contribute to a team focused
+          on safeguarding digital assets.
         </p>
       </div>
     </section>
   </header>
-  
+
   <main id="hero" class="container">
     <section class="section">
       <div class="row">
-        <img class="col-6 hero-img" src="/assets/images/me-with-ge90.webp" alt="Me with a GE90 engine in the background">
+        <img class="col-6 hero-img" src="/assets/images/me-with-ge90.webp"
+          alt="Me with a GE90 engine in the background">
       </div>
     </section>
   </main>
-  <br>
 
 </body>
 
-<footer class="mt-auto">
-  <div">
-    <h3 class="display-6 container text-center">
-      <a href="https://www.linkedin.com/in/shaun-whiskey-walker/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin custom-button"></i></a>
-      <a href="https://github.com/mybluewebsite" target="_blank" rel="noopener"><i class="fa-brands fa-github custom-button"></i></a>
-    </h3>
+<!-- footer -->
+<!-- mt-auto added to push footer to the bottom of the page -->
+<footer id="contact" class="mt-auto">
+  <div class="container">
+    <div class="row">
+      <div class="display-6 text-center my-2">
+        <a href="https://www.linkedin.com/in/shaun-whiskey-walker/" target="_blank"
+          aria-label="Visit my Linkedin page (opens in a new tab)" rel="noopener"><i
+            class="fa-brands fa-linkedin custom-button"></i></a>
+        <a href="https://github.com/mybluewebsite" target="_blank"
+          aria-label="Visit my Github page (opens in a new tab)" rel="noopener"><i
+            class="fa-brands fa-github custom-button"></i></a>
+        <a href="https://www.x.com" target="_blank" aria-label="Visit my X feed (opens in a new tab)" rel="noopener"><i
+            class="fa-brands fa-x-twitter custom-button"></i></a>
+      </div>
+    </div>
+  </div>
   </div>
 </footer>
 
-  <!-- Bootstrap JS Script-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-  </script>
+<!-- Bootstrap JS Script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
 
-  <!-- Fontawesome kit -->
-  <script src="https://kit.fontawesome.com/a666865103.js" crossorigin="anonymous"></script>
+<!-- Fontawesome kit -->
+<script src="https://kit.fontawesome.com/a666865103.js" crossorigin="anonymous"></script>
 
 </html>

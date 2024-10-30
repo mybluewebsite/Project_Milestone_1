@@ -34,6 +34,27 @@ mark {
     background-color: var(--baby-powder);
 }
 
+.custom-button {
+    color: var(--gunmetal);
+}
+
+footer .custom-button {
+    margin: 0 10%;
+}
+
+.custom-button:hover {
+    color: var(--dark-spring-green);
+}
+
+.navbar .active {
+    color: var(--baby-powder);
+    background-color: var(--dark-spring-green);
+}
+
+.section {
+    padding-top: 4rem; /* prevent navbar overlap */
+}
+
 /* Header styles */
 
 #intro {
@@ -71,12 +92,3 @@ footer {
     color: var(--gunmetal);
     background-color: var(--cambridge-blue);
 }
-
-.custom-button {
-    color: var(--gunmetal);
-}
-
-.custom-button:hover {
-    color: var(--dark-spring-green);
-}
-
