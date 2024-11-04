@@ -10,7 +10,6 @@
     --dark-spring-green: #2c6e49ff;
     --cambridge-blue: #9dbbaeff;
     --gunmetal: #2a2d34ff;
-    --wenge: #63595cff;
 }
 
 /* Global styles */
@@ -38,10 +37,6 @@ mark {
     color: var(--gunmetal);
 }
 
-footer .custom-button {
-    margin: 0 10%;
-}
-
 .custom-button:hover {
     color: var(--dark-spring-green);
 }
@@ -60,11 +55,15 @@ footer .custom-button {
 /* Header styles */
 
 #intro {
-    background-color: var(--gunmetal)
+    background-color: var(--gunmetal);
 }
 
 #intro p {
     font-family: var(--accent-font);
+}
+
+header h1 {
+    line-height: inherit;
 }
 
 /* Main styles */
@@ -92,4 +91,33 @@ footer {
     font-family: var(--primary-font);
     color: var(--gunmetal);
     background-color: var(--cambridge-blue);
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 280px) {
+    #hero-img {
+        height: 90vw;
+        width: 90vw;
+        margin-bottom: 25px;
+        max-width: 325px;
+        max-height: 325px;
+    }
+
+    #intro p {
+        margin: 5% 5%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #intro p {
+        margin: 2% 2%;
+    }
 }
