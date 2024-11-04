@@ -41,6 +41,18 @@ mark {
     color: var(--dark-spring-green);
 }
 
+.btn {
+    border: solid 2px var(--gunmetal);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: unset;
+    border-bottom-right-radius: unset;
+}
+
+.btn:hover {
+    border: solid 2px var(--dark-spring-green);
+}
+
 .navbar .active {
     color: var(--baby-powder);
     background-color: var(--dark-spring-green);
@@ -48,8 +60,27 @@ mark {
     border-bottom-left-radius: 20%;
 }
 
+.navbar-nav .btn {
+    margin: 0 0.5rem;
+}
+
 .section {
     padding-top: 4rem; /* prevent navbar overlap */
+}
+
+.custom-corners {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: unset;
+    border-bottom-right-radius: unset;
+    border: 2px solid var(--baby-powder);
+}
+
+.white-btn {
+    border: solid 2px var(--baby-powder);
+    color: var(--baby-powder);
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
 }
 
 /* Header styles */
@@ -83,6 +114,13 @@ main {
 
 #hero #hero-img {
     border-radius: 50%;
+}
+
+/* Contact page styles */
+
+#contact-img {
+    mix-blend-mode: screen;
+
 }
 
 /* Footer styles */

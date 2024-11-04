@@ -38,6 +38,9 @@
           <li class="nav-item">
             <a class="nav-link active custom-button" href="contact.html">Contact</a>
           </li>
+          <li>
+            <a role="button" class="btn custom-button" href="assets/Shaun_Walker_CV.pdf" target="_blank">Download CV</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -53,7 +56,43 @@
   </header>
 
   <main class="container">
-
+    <section>
+      <div class="row">
+        <img id="contact-img" src="/assets/images/merlin-in-norway.webp"
+          alt="A Merlin Mk4 Aircraft flying above a hut in Norway.">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center my-4">
+            <h2 class="display-5">Contact</h2>
+            <p class="mt-4">Should you find my experience valuable, I'd love to hear from you! Please don't hesitate to
+              download a copy of my CV and/or get in
+              touch. I would be delighted to discuss new opportunities!</p>
+          </div>
+          <div class="col-12 col-md-10 col-lg-8 mb-4">
+            <form class="row g-3" method="POST" action="https://formdump.codeinstitute.net">
+              <div class="col-lg-4">
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" class="form-control custom-corners" id="full-name">
+              </div>
+              <div class="col-lg-4">
+                <label for="phonenumber" class="form-label">Phone number</label>
+                <input type="number" class="form-control custom-corners" id="phonenumber">
+              </div>
+              <div class="col-lg-4">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control custom-corners" id="email">
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control custom-corners" id="message" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn white-btn">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 </body>
@@ -65,13 +104,13 @@
     <div class="row">
       <div class="display-6 text-center my-2 social-link">
         <li><a href="https://www.linkedin.com/in/shaun-whiskey-walker/" target="_blank"
-          aria-label="Visit my Linkedin page (opens in a new tab)" rel="noopener"><i
-            class="fa-brands fa-linkedin custom-button"></i></a></li>
+            aria-label="Visit my Linkedin page (opens in a new tab)" rel="noopener"><i
+              class="fa-brands fa-linkedin custom-button"></i></a></li>
         <li><a href="https://github.com/mybluewebsite" target="_blank"
-          aria-label="Visit my Github page (opens in a new tab)" rel="noopener"><i
-            class="fa-brands fa-github custom-button"></i></a></li>
-        <li><a href="https://www.x.com" target="_blank" aria-label="Visit my X feed (opens in a new tab)" rel="noopener"><i
-            class="fa-brands fa-x-twitter custom-button"></i></a></li>
+            aria-label="Visit my Github page (opens in a new tab)" rel="noopener"><i
+              class="fa-brands fa-github custom-button"></i></a></li>
+        <li><a href="https://www.x.com" target="_blank" aria-label="Visit my X feed (opens in a new tab)"
+            rel="noopener"><i class="fa-brands fa-x-twitter custom-button"></i></a></li>
       </div>
     </div>
   </div>
