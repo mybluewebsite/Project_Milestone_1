@@ -18,6 +18,7 @@
     font-family: var(--primary-font);
     color: var(--gunmetal);
     background-color: var(--cambridge-blue);
+    box-shadow: 0 1px 1px var(--dark-spring-green);
 }
 
 body {
@@ -120,8 +121,14 @@ main {
 
 #contact-img {
     mix-blend-mode: screen;
-
+    max-width: 100%;
 }
+
+/* input:focus {
+    outline: none;
+} 
+    
+Attempt made to remove the default blue shadow around the (focussed) input fields of the form on the contact page. */
 
 /* Footer styles */
 
