@@ -104,6 +104,17 @@ main {
     border-radius: 50%;
 }
 
+/* Work Experience page styles */
+
+.carousel {
+    max-width: max-content;
+    max-height: max-content;
+}
+
+.carousel-item {
+    height: 475px;
+}
+
 /* Contact page styles */
 
 #contact-img {
@@ -137,6 +148,9 @@ footer h1 {
 
 footer .custom-button {
     color: var(--baby-powder);
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
 .social-link {
