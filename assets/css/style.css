@@ -7,18 +7,18 @@
     --secondary-font: "Arsenal", sans-serif;
     --accent-font: "Fira Sans", sans-serif;
     --baby-powder: #f7f7f2ff;
-    --dark-spring-green: #2c6e49ff;
-    --cambridge-blue: #9dbbaeff;
-    --gunmetal: #2a2d34ff;
+    --dark-slate-gray: #305252ff;
+    --cambridge-blue: #70a37fff;
+    --onyx: #373e40ff;
 }
 
 /* Global styles */
 
 .navbar {
     font-family: var(--primary-font);
-    color: var(--gunmetal);
-    background-color: var(--cambridge-blue);
-    box-shadow: 0 1px 1px var(--dark-spring-green);
+    color: var(--onyx);
+    background-color: var(--baby-powder);
+    box-shadow: 0 1px 1px var(--dark-slate-gray);
 }
 
 body {
@@ -28,37 +28,30 @@ body {
 }
 
 mark {
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    color: var(--gunmetal);
+    color: var(--onyx);
     background-color: var(--baby-powder);
 }
 
 .custom-button {
-    color: var(--gunmetal);
+    color: var(--onyx);
 }
 
 .custom-button:hover {
-    color: var(--dark-spring-green);
+    color: var(--cambridge-blue);
 }
 
 .btn {
-    border: solid 2px var(--gunmetal);
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    border-top-left-radius: unset;
-    border-bottom-right-radius: unset;
+    border: solid 2px var(--onyx);
+    
 }
 
 .btn:hover {
-    border: solid 2px var(--dark-spring-green);
+    border: solid 2px var(--cambridge-blue);
 }
 
 .navbar .active {
-    color: var(--baby-powder);
-    background-color: var(--dark-spring-green);
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
+    color: var(--baby-powder) !important;
+    background-color: var(--dark-slate-gray);
 }
 
 .navbar-nav .btn {
@@ -69,25 +62,19 @@ mark {
     padding-top: 4rem; /* prevent navbar overlap */
 }
 
-.custom-corners {
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
-    border-top-left-radius: unset;
-    border-bottom-right-radius: unset;
-    border: 2px solid var(--baby-powder);
+.sharp-corners, .sharp-corners * {
+    border-radius: 0;
 }
 
 .white-btn {
     border: solid 2px var(--baby-powder);
     color: var(--baby-powder);
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
 }
 
 /* Header styles */
 
 #intro {
-    background-color: var(--gunmetal);
+    background-color: var(--onyx);
 }
 
 #intro p {
@@ -101,12 +88,12 @@ header h1 {
 /* Main styles */
 
 main {
-    background-color: var(--gunmetal)
+    background-color: var(--onyx)
 }
 
 #hero {
     background-image: url("../images/server-rack.webp");
-    background-color: var(--gunmetal);
+    background-color: var(--onyx);
     background-position: 30% 50%;
     background-size: cover;
     padding: 0 0 5% 5%;
@@ -120,8 +107,15 @@ main {
 /* Contact page styles */
 
 #contact-img {
-    mix-blend-mode: screen;
-    max-width: 100%;
+    height: auto;
+    width: 100%;
+    background: url(../images/merlin-in-norway.webp) no-repeat center center / cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(55, 62, 64, .6);
+    position: relative;
 }
 
 /* input:focus {
@@ -133,9 +127,16 @@ Attempt made to remove the default blue shadow around the (focussed) input field
 /* Footer styles */
 
 footer {
-    font-family: var(--primary-font);
-    color: var(--gunmetal);
-    background-color: var(--cambridge-blue);
+    color: var(--baby-powder);
+    background-color: var(--dark-slate-gray);
+}
+
+footer h1 {
+    font-family: var(--secondary-font);
+}
+
+footer .custom-button {
+    color: var(--baby-powder);
 }
 
 .social-link {
@@ -143,6 +144,11 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 0.5rem;
+}
+
+footer mark {
+    color: var(--dark-slate-gray);
+    background-color: var(--baby-powder);
 }
 
 /* Media Queries */
