@@ -75,6 +75,11 @@ mark {
     color: var(--baby-powder);
 }
 
+.white-btn:hover {
+    color: var(--cambridge-blue);
+    background-color: var(--dark-slate-gray);
+}
+
 /* Header styles */
 
 #intro {
