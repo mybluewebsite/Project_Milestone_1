@@ -115,6 +115,11 @@ main {
     height: 475px;
 }
 
+#work-img {
+    max-width: 475px;
+    max-height: 475px;
+}
+
 /* Contact page styles */
 
 #contact-img {
