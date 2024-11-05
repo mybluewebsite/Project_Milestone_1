@@ -22,9 +22,13 @@
 }
 
 body {
-    font-family: var(--secondary-font);
+    font-family: var(--accent-font);
     color: var(--baby-powder);
     background-color: var(--baby-powder);
+}
+
+h1 {
+    font-family: var(--secondary-font);
 }
 
 mark {
@@ -113,11 +117,6 @@ main {
 
 .carousel-item {
     height: 475px;
-}
-
-#work-img {
-    max-width: 475px;
-    max-height: 475px;
 }
 
 /* Contact page styles */
