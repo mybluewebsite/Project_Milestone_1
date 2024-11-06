@@ -105,7 +105,7 @@ main {
     background-color: var(--onyx);
     background-position: 30% 50%;
     background-size: cover;
-    padding: 0 0 5% 5%;
+    padding: 5% 5%;
     background-blend-mode: screen;
 }
 
@@ -120,8 +120,8 @@ main {
     max-height: max-content;
 }
 
-.carousel-item {
-    height: 475px;
+.carousel {
+    margin-top: 20px;
 }
 
 /* Contact page styles */
@@ -178,20 +178,38 @@ footer mark {
 
 @media screen and (min-width: 280px) {
     #hero-img {
+        display: flex;
+        flex: 1;
+    }
+
+    #intro p {
+        margin: 5% 5%;
+    }
+
+    .navbar .btn {
+        margin: 2px 0;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #hero-img {
         height: 90vw;
         width: 90vw;
         margin-bottom: 25px;
         max-width: 325px;
         max-height: 325px;
     }
-
-    #intro p {
-        margin: 5% 5%;
-    }
 }
 
 @media screen and (min-width: 768px) {
     #intro p {
         margin: 2% 2%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #hero-img {
+        max-width: 500px;
+        max-height: 500px;
     }
 }
