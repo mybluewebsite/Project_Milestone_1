@@ -115,14 +115,7 @@ main {
 
 /* Work Experience page styles */
 
-.carousel {
-    max-width: max-content;
-    max-height: max-content;
-}
 
-.carousel {
-    margin-top: 20px;
-}
 
 /* Contact page styles */
 
@@ -174,6 +167,23 @@ footer mark {
     background-color: var(--baby-powder);
 }
 
+main ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main li {
+    position: relative;
+    padding-left: 20px;
+}
+
+main ul li::before {
+    content: "\e4e3";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 280px) {
@@ -189,6 +199,18 @@ footer mark {
     .navbar .btn {
         margin: 2px 0;
     }
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .carousel-item img {
+        object-fit: cover;
+        height: 350px;
+    }
 }
 
 @media screen and (min-width: 425px) {
@@ -199,11 +221,37 @@ footer mark {
         max-width: 325px;
         max-height: 325px;
     }
+
+    .carousel-item img {
+        object-fit: cover;
+        height: 400px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     #intro p {
         margin: 2% 2%;
+    }
+
+    .carousel-item img {
+        object-fit: unset;
+        max-width: 100%;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-item img {
+        height: 600px;
+    }
+
+    .navbar .btn {
+        margin: 0 2px;
+    }
+
+    .navbar .btn {
+        font-size: 16.5px;
+        margin-left: 2px;
     }
 }
 
@@ -211,5 +259,19 @@ footer mark {
     #hero-img {
         max-width: 500px;
         max-height: 500px;
+    }
+
+    .carousel-item img {
+        height: 450px;
+        margin-bottom: 2%;
+    }
+
+    .navbar {
+        font-size: larger;
+    }
+
+    .navbar .btn {
+        font-size: 19.5px;
+        margin-left: 3px;
     }
 }
