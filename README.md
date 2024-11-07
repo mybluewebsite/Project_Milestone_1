@@ -62,6 +62,9 @@ insert screenshot of website
 
 Wireframes
 
+[Wireframe](Project_milestone_1_template.bmpr)
+![Wireframe](wireframe.png)
+
 ------
 
 ## Media
