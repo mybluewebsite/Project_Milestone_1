@@ -20,7 +20,7 @@ insert screenshot of website
 
 1. HTML ![HTML 5](HTML5.png)
 2. CSS ![CSS](CSS3.png)
-3. Bootstrap ![Bootstrap](Bootstrap.jpg)
+3. Bootstrap ![Bootstrap](Bootstrap.png)
 
 ------
 
