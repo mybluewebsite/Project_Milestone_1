@@ -199,6 +199,7 @@ main ul li::before {
         -webkit-box-flex: 1;
             -ms-flex: 1;
                 flex: 1;
+        height: 275px;
     }
 
     #intro p {
@@ -229,7 +230,7 @@ main ul li::before {
         height: 90vw;
         width: 90vw;
         margin-bottom: 25px;
-        max-width: 325px;
+        max-width: 400px;
         max-height: 325px;
     }
 
@@ -270,7 +271,7 @@ main ul li::before {
 
 @media screen and (min-width: 1440px) {
     #hero-img {
-        max-width: 500px;
+        max-width: 600px;
         max-height: 500px;
     }
 
