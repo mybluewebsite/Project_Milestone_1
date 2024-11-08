@@ -8,7 +8,7 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Project Logo
 
-insert screenshot of website
+![frontpage](project_1_fontpage.png)
 
 ------
 
@@ -56,15 +56,15 @@ insert screenshot of website
 
 1. Desktop Wireframe
 
-![Wireframe](wireframe_desktop.png)
+![Wireframe Desktop](wireframe_desktop.png)
 
 2. Tablet Wireframe
 
-![Wireframe](wireframe_tablet.png)
+![Wireframe Tablet](wireframe_tablet.png)
 
 3. Mobile Wireframe
 
-![Wireframe](wireframe_mobile.png)
+![Wireframe Mobile](wireframe_mobile.png)
 
 ------
 
@@ -74,25 +74,35 @@ insert screenshot of website
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - Identically featured on all three pages, the full responsive navigation bar includes links to the "About me", "Work Experience", and "Contact" pages and a seperate link to the "Download CV" button.
+  - Allows the user to easily navigate from page to page across all devices without having to use a "back" button.
+ 
+- __Responsiveness__
+
+   - The website is completely responsive on all devices from 280px to 1440 px.
  
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+  - This section includes links to the relevant social media sites. Opening in a new tab and allowing complete ease of access for the user.
  
 ### Future Features
 
-- __Another Feature__ 
+- __Skills__
+
+  - A "Technical Skills" page is yet to be added.
 
 ------
 
 ## 3. Technologies used
 
+### Languages used
+
 1. HTML ![HTML 5](HTML5.png)
-2. CSS ![CSS](CSS3.png)
-3. Bootstrap ![Bootstrap](Bootstrap.png)
+2. CSS ![CSS 3](CSS3.png)
+
+### Framework used
+
+1. Bootstrap 5.3 ![Bootstrap](Bootstrap.png)
 
 ------
 
