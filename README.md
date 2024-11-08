@@ -97,12 +97,17 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Languages used
 
-1. HTML ![HTML 5](HTML5.png)
-2. CSS ![CSS 3](CSS3.png)
+1. HTML5 ![HTML5](HTML5.png)
+2. CSS3 ![CSS3](CSS3.png)
 
-### Framework used
+### Framework, Libraries, and programs used
 
 1. Bootstrap 5.3 ![Bootstrap](Bootstrap.png)
+2. Google Fonts
+3. Font Awesome
+4. Gitpod
+5. GitHub
+6. Balsamiq
 
 ------
 
