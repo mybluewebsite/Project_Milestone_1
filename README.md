@@ -6,7 +6,7 @@
 
 This is my first project milestone I've had to complete as part of Code Institute's Full Stack Web Application Development Programme. The website is of a minimalist design which showcases my experience within the Aviation sector and the experiences/skills I have obtained during my transition into Cybersecurity.
 
-### Project Logo
+### Project Frontpage
 
 ![frontpage](assets/images/project_1_frontpage.png)
 
