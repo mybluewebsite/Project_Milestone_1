@@ -30,6 +30,7 @@ This is my first project milestone I've had to complete as part of Code Institut
 5. Deployment
 
 6. Credits
+   - Code
    - Content
    - Media
    - Acknowledgements
