@@ -140,10 +140,16 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Validator Testing 
 
-1. [HTML validator results](HTML_validator_results.png)
-   - Initially there were a few issues with the HTML code, these errors have since been corrected.
-2. [CSS validator results](CSS_validator_results.png)
-   - No CSS errors found, there are multiple warnings referencing the vendor prefixes.
+1. HTML Validator Results
+   - Initially there were a few issues with the HTML code (seen below), these errors have since been corrected.
+!["About Me" validator results](index_validator_results.png)
+!["Work Experience" validator results](work_validator_results.png)
+!["Contact" validator results](contact_validator_results.png)
+   
+2. CSS Validator Results
+   - No CSS errors found, there are multiple warnings referencing the vendor prefixes (seen below).
+![CSS validator results](css_validator_results.png)
+![CSS warnings](css_warnings.png)
 
 ### Known Bugs
 
@@ -156,14 +162,14 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### GitHub Pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the specific [GitHub Repository](https://github.com/), navigate to the "Settings" tab.
+  - In the specific [GitHub repository](https://github.com/), navigate to the "Settings" tab.
   - Scroll down until you see "pages" on the left-hand side.
   - From the "Branch" sub-section, under the "Build and Deployment" section, from the drop-down menu, select "main" and save.
-  - You will find the deployed site under "Github pages" showing your live site and it's URL, allowing you to navigate to the deployed website.
+  - You will find the deployed site under "Github Pages" showing your live site and it's URL, allowing you to navigate to the deployed website.
 
 ### Forking your GitHub Repository
 - To make a copy of the original version so you can view and edit within your own GitHub repositories, you should do the following:
-   - Locate the GitHub repository in question.
+   - Locate the [GitHub repository](https://github.com/) in question.
    - At the top of the page, below the main menu, you will find the "Fork" button.
    - Select "Create a new fork" which will rediredct you to another page where you can change the description and title.
    - Select "Create fork" which will make a copy in your own GitHub repository.
@@ -178,7 +184,7 @@ The live link can be found [here](https://mybluewebsite.github.io/Project_Milest
 
 - "Lorem ipsum" used as placeholder text throughout the website.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points.
+- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points, ![seen here](code_snippet.png)
 
 ### Media
 
