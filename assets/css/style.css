@@ -216,6 +216,10 @@ main ul li::before {
            object-fit: cover;
         height: 300px;
     }
+
+    form {
+        padding-left: 1.5rem;
+    }
 }
 
 @media screen and (min-width: 375px) {
