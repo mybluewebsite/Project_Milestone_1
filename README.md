@@ -154,7 +154,6 @@ This is my first project milestone I've had to complete as part of Code Institut
 ### Known Bugs
 
 - Added a ":focus-within" pseudo-class as an attempt to change the blue box shadow of the input forms on the contact page.
-- Input forms on the contact page are not centered correctly on all mobile devices.
 
 ------
 
