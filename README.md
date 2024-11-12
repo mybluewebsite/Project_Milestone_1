@@ -109,9 +109,9 @@ This is my first project milestone I've had to complete as part of Code Institut
 3. [Font Awesome:](https://fontawesome.com/)
    - Font Awesome allowed me to use the icons required for the footer section.
 4. [Gitpod:](https://www.gitpod.io/)
-   - Gitpod was used to write the code and commit and push to github.
+   - GitPod was used to write the code and commit and push to gitHub.
 5. [GitHub:](https://github.com/)
-   - Github is used to store and interact with the code once pushed from gitpod.
+   - GitHub is used to store and interact with the code once pushed from gitPod.
 6. [Balsamiq:](https://balsamiq.com/)
    - Balsamiq has been used create the [wireframes](Project_milestone_1_template.bmpr) prior to writing the code.
 7. [Fontjoy:](https://fontjoy.com/)
@@ -146,17 +146,26 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Known Bugs
 
-- 
+- Added a ":focus-within" pseudo-class as an attempt to change the blue box shadow of the input forms on the contact page.
+- Input forms on the contact page are not centered correctly on all mobile devices.
 
 ------
 
 ## 5. Deployment
 
+### GitHub Pages
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the specific [GitHub Repository](https://github.com/), navigate to the "Settings" tab.
   - Scroll down until you see "pages" on the left-hand side.
   - From the "Branch" sub-section, under the "Build and Deployment" section, from the drop-down menu, select "main" and save.
   - You will find the deployed site under "Github pages" showing your live site and it's URL, allowing you to navigate to the deployed website.
+
+### Forking your GitHub Repository
+- To make a copy of the original version so you can view and edit within your own GitHub repositories, you should do the following:
+   - Locate the GitHub repository in question.
+   - At the top of the page, below the main menu, you will find the "Fork" button.
+   - Select "Create a new fork" which will rediredct you to another page where you can change the description and title.
+   - Select "Create fork" which will make a copy in your own GitHub repository.
 
 The live link can be found [here](https://mybluewebsite.github.io/Project_Milestone_1/index.html).
 
@@ -168,7 +177,7 @@ The live link can be found [here](https://mybluewebsite.github.io/Project_Milest
 
 - "Lorem ipsum" used as placeholder text throughout the website.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- [ChatGPT](https://chatgpt.com/) has been used to 
+- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points.
 
 ### Media
 
@@ -177,10 +186,8 @@ The live link can be found [here](https://mybluewebsite.github.io/Project_Milest
 ### Acknowledgements
 
 - Special thanks to [Code Institute](https://codeinstitute.net/) for providing a sample README to edit accordingly.
-- Thank you to Spence, my tutor, for assisting me with the completion of this project.
+- Thank you to Spence, for providing tutor support and assisting me with the completion of this project.
 
 ---
 
 ![Heli Logo](https://img.icons8.com/?size=100&id=p60BZD89WT52&format=png&color=000000) ![Laptop Logo](https://img.icons8.com/?size=100&id=43629&format=png&color=000000)
-
-Thank you for your time!
