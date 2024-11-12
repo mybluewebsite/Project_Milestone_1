@@ -8,7 +8,7 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Project Logo
 
-![frontpage](project_1_fontpage.png)
+![frontpage](project_1_frontpage.png)
 
 ------
 
