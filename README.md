@@ -183,7 +183,8 @@ The live link can be found [here](https://mybluewebsite.github.io/Project_Milest
 
 - "Lorem ipsum" used as placeholder text throughout the website.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points, ![seen here](assets/images/code_snippet.png)
+- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points.
+![seen here](assets/images/code_snippet.png)
 
 ### Media
 
