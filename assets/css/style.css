@@ -273,6 +273,13 @@ main ul li::before {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .carousel-item img {
+        height: 450px;
+        margin-bottom: 2%;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     #hero-img {
         height: 500px;
