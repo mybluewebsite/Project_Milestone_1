@@ -55,17 +55,17 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 [Wireframe](assets/project_milestone_1_template.bmpr)
 
-1. Desktop Wireframe
+1. Mobile Wireframe
 
-![Wireframe Desktop](assets/images/wireframe_desktop.png)
+![Wireframe Mobile](assets/images/wireframe_mobile.png)
 
 2. Tablet Wireframe
 
 ![Wireframe Tablet](assets/images/wireframe_tablet.png)
 
-3. Mobile Wireframe
+3. Desktop Wireframe
 
-![Wireframe Mobile](assets/images/wireframe_mobile.png)
+![Wireframe Desktop](assets/images/wireframe_desktop.png)
 
 ------
 
