@@ -41,7 +41,7 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Project goals
 
-1. To create a website which was both responsive and fairly dynamic but also very simplitic.
+1. To create a website which was both responsive and fairly dynamic but also very simplistic.
 2. To showcase my skills in using HTML, CSS and Bootstrap only.
 
 ### Design choices
@@ -104,27 +104,27 @@ This is my first project milestone I've had to complete as part of Code Institut
 ### Framework, Libraries, and programs used
 
 1. [Bootstrap 5.3:](https://getbootstrap.com/)
-   - Bootstrap has been used for overall formatting of the webpage.
+      - Bootstrap has been used for overall formatting of the webpage.
 2. [Google Fonts:](https://fonts.google.com/)
-   - Google Fonts provided me with the 3 different fonts I have used.
+      - Google Fonts provided me with the 3 different fonts I have used.
 3. [Font Awesome:](https://fontawesome.com/)
-   - Font Awesome allowed me to use the icons required for the footer section.
+      - Font Awesome allowed me to use the icons required for the footer section.
 4. [Gitpod:](https://www.gitpod.io/)
-   - GitPod was used to write the code and commit and push to gitHub.
+      - GitPod was used to write the code and commit and push to gitHub.
 5. [GitHub:](https://github.com/)
-   - GitHub is used to store and interact with the code once pushed from gitPod.
+      - GitHub is used to store and interact with the code once pushed from gitPod.
 6. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq has been used create the [wireframes](assets/project_milestone_1_template.bmpr) prior to writing the code.
+      - Balsamiq has been used create the [wireframes](assets/project_milestone_1_template.bmpr) prior to writing the code.
 7. [Fontjoy:](https://fontjoy.com/)
-   - Fontjoy was used to generate 3 random font pairings.
+      - Fontjoy was used to generate 3 random font pairings.
 8. [Coolors:](https://coolors.co/)
-   - Coolors was used to generate random colour pairings for the overall design of the website.
+      - Coolors was used to generate random colour pairings for the overall design of the website.
 9. [Hover.css:](https://ianlunn.github.io/Hover/)
-   - Hover.css has been used to add the float transition to the social links in the footer section.
+      - Hover.css has been used to add the float transition to the social links in the footer section.
 10. [CSS autoprefixer:](https://autoprefixer.github.io/)
-   - Autoprefixer parsed my CSS and added vendor prefixes.
+      - Autoprefixer parsed my CSS and added vendor prefixes.
 11. [Pexels:](https://www.pexels.com/)
-   - Pexels has been used for the addition of stock photos.
+      - Pexels has been used for the addition of stock photos.
 
 ------
 
@@ -150,6 +150,23 @@ This is my first project milestone I've had to complete as part of Code Institut
    - No CSS errors found, there are multiple warnings referencing the vendor prefixes (seen below).
 ![CSS validator results](assets/images/css_validator_results.png)
 ![CSS warnings](assets/images/css_warnings.png)
+
+3. Lighthouse Testing
+   - All pages have been tested using "Lighthouse" testing within Google Chrome "Developer tools". All pages scored well within the 90's.
+![Lighthouse Report](lighthouse_results.png)
+
+4. Wave Testing
+   - All pages have been tested using [Wave](https://wave.webaim.org/). No errors were found.
+![Frontpage Wave Results](wave_frontpage.png)
+![Work experience Wave Results](wave_work.png)
+![Contact form Wave Results](wave_contact.png)
+
+6. Manual Testing
+   - Selecting the navbar elements takes you to their respective pages.
+   - Selecting "Download CV" downloads and opens the CV in a new tab.
+   - Selecting either of the social links takes you to their respective webpages.
+   - Clicking "Send" on the form without inputting data will bring up a caution message.
+   - Clicking the arrows on the carousel on the "Work Experience" page will allow you to cylce through the images.
 
 ### Known Bugs
 
