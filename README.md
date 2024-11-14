@@ -6,9 +6,9 @@
 
 This is my first project milestone I've had to complete as part of Code Institute's Full Stack Web Application Development Programme. The website is of a minimalist design which showcases my experience within the Aviation sector and the experiences/skills I have obtained during my transition into Cybersecurity.
 
-### Project Logo
+### Project Frontpage
 
-![frontpage](project_1_frontpage.png)
+![frontpage](assets/images/project_1_frontpage.png)
 
 ------
 
@@ -53,19 +53,19 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 ### Wireframe
 
-[Wireframe](Project_milestone_1_template.bmpr)
+[Wireframe](assets/project_milestone_1_template.bmpr)
 
 1. Desktop Wireframe
 
-![Wireframe Desktop](wireframe_desktop.png)
+![Wireframe Desktop](assets/images/wireframe_desktop.png)
 
 2. Tablet Wireframe
 
-![Wireframe Tablet](wireframe_tablet.png)
+![Wireframe Tablet](assets/images/wireframe_tablet.png)
 
 3. Mobile Wireframe
 
-![Wireframe Mobile](wireframe_mobile.png)
+![Wireframe Mobile](assets/images/wireframe_mobile.png)
 
 ------
 
@@ -114,7 +114,7 @@ This is my first project milestone I've had to complete as part of Code Institut
 5. [GitHub:](https://github.com/)
    - GitHub is used to store and interact with the code once pushed from gitPod.
 6. [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq has been used create the [wireframes](Project_milestone_1_template.bmpr) prior to writing the code.
+   - Balsamiq has been used create the [wireframes](assets/project_milestone_1_template.bmpr) prior to writing the code.
 7. [Fontjoy:](https://fontjoy.com/)
    - Fontjoy was used to generate 3 random font pairings.
 8. [Coolors:](https://coolors.co/)
@@ -142,19 +142,19 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 1. HTML Validator Results
    - Initially there were a few issues with the HTML code (seen below), these errors have since been corrected.
-!["About Me" validator results](index_validator_results.png)
-!["Work Experience" validator results](work_validator_results.png)
-!["Contact" validator results](contact_validator_results.png)
+!["About Me" validator results](assets/images/index_validator_results.png)
+!["Work Experience" validator results](assets/images/work_validator_results.png)
+!["Contact" validator results](assets/images/contact_validator_results.png)
    
 2. CSS Validator Results
    - No CSS errors found, there are multiple warnings referencing the vendor prefixes (seen below).
-![CSS validator results](css_validator_results.png)
-![CSS warnings](css_warnings.png)
+![CSS validator results](assets/images/css_validator_results.png)
+![CSS warnings](assets/images/css_warnings.png)
 
 ### Known Bugs
 
 - Added a ":focus-within" pseudo-class as an attempt to change the blue box shadow of the input forms on the contact page.
-- Input forms on the contact page are not centered correctly on all mobile devices.
+- When running "Lighthouse" on the frontpage, the aspect-ratio of the hero img is incorrect and decreases overall performance score.
 
 ------
 
@@ -184,7 +184,8 @@ The live link can be found [here](https://mybluewebsite.github.io/Project_Milest
 
 - "Lorem ipsum" used as placeholder text throughout the website.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-- [ChatGPT](https://chatgpt.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points, ![seen here](code_snippet.png)
+- [Google](https://www.google.com/) has been used to create a "::before" pseudo-class for the "Frequently Asked Questions" section to replace the bullet-points.
+![seen here](assets/images/code_snippet.png)
 
 ### Media
 
