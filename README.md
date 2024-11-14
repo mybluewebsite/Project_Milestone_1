@@ -153,13 +153,13 @@ This is my first project milestone I've had to complete as part of Code Institut
 
 3. Lighthouse Testing
    - All pages have been tested using "Lighthouse" testing within Google Chrome "Developer tools". All pages scored well within the 90's.
-![Lighthouse Report](lighthouse_results.png)
+![Lighthouse Report](assets/images/lighthouse_results.png)
 
 4. Wave Testing
    - All pages have been tested using [Wave](https://wave.webaim.org/). No errors were found.
-![Frontpage Wave Results](wave_frontpage.png)
-![Work experience Wave Results](wave_work.png)
-![Contact form Wave Results](wave_contact.png)
+![Frontpage Wave Results](assets/images/wave_frontpage.png)
+![Work experience Wave Results](assets/images/wave_work.png)
+![Contact form Wave Results](assets/images/wave_contact.png)
 
 6. Manual Testing
    - Selecting the navbar elements takes you to their respective pages.
